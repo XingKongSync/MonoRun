@@ -10,7 +10,7 @@ docker cli
 ```
 docker run -d \
     --name=monorun \
-    -e APP="/app/yourdonet.exe" \
+    -e APP="/app/yourdotnet.exe" \
     -v /mnt/user/appdata/monorun:/app \
     xingkongsync/monorun
 ```
