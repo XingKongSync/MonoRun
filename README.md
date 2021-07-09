@@ -12,6 +12,7 @@ docker run -d \
     --name=monorun \
     -e APP="/app/yourdonet.exe" \
     -v /mnt/user/appdata/monorun:/app \
+    xingkongsync/monorun
 ```
 
 Just replace the path with your actual exe path
